@@ -8,7 +8,7 @@
 * Launch the patcher and follow its instructions.
 * Reopen the friends list to apply the new changes.
 
-## Uninstallation
+## How to uninstall:
 * Just remove friends.custom.css from Steam/clientui/
 
 ## Special thanks to: 
