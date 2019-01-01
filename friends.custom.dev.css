@@ -1,6 +1,4 @@
-
-
-/*test*/::-webkit-scrollbar {
+::-webkit-scrollbar {
 	background-color:#fff;
 	width:16px;
 }
