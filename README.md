@@ -4,7 +4,7 @@
 
 ## How to install:
 * [Download](https://github.com/PhantomGamers/EnableNewSteamFriendsSkin/releases) the latest patcher to enable customization.
-* Download the css and put in your Steam/clientui/ folder.
+* Download the friends.custom.css and put in your Steam/clientui/ folder.
 * Launch the patcher and follow its instructions.
 * Reopen the friends list to apply the new changes.
 
