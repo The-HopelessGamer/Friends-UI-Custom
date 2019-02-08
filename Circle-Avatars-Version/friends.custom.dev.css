@@ -1287,3 +1287,15 @@ button.DialogButton.copyVoiceLogsButton {
     margin-right: 6px;
     border-radius: 40px !important;
 }
+
+.friend.quickAccessFriend .avatarHolder .avatarStatus {
+    border-radius: 40px !important;
+    margin-top: -13px !important;
+    margin-left: 35px !important;
+    height: 12px !important;
+    width: 12px !important;
+    z-index: 1 !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #1e1e1f !important;
+}
