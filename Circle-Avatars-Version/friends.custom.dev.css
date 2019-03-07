@@ -1319,3 +1319,7 @@ button.DialogButton.copyVoiceLogsButton {
 .contextmenu_contextMenu_3_a2Z {
 	background: #1a1a1a!important;
 }
+
+.contextmenu_contextMenuItem_CBC-y:hover, .contextmenu_contextMenuItem_CBC-y.contextmenu_active_3vYUp {
+  background: #333333!important;
+}
