@@ -1351,7 +1351,7 @@ button.DialogButton.copyVoiceLogsButton {
 .unreadMessageViolator {
     border: 0px !important;
     line-height: 20px !important;
-    color: #295 !important;
+    color: #29 !important;
     background: #151515 !important;
     border-radius: 40px !important;
     height: 20px !important;
@@ -1365,12 +1365,10 @@ button.DialogButton.copyVoiceLogsButton {
 .unreadFriend .FriendMessageCount {
     box-shadow: none !important;
     border-radius: 40px !important;
-    color: #295 !important;
+    color: #29 !important;
     background: #151515 !important;
     animation-name: none !important;
 }
-
-
 
 .ChatRoomSpeaker .speaker .speakerAvatar, .ChatMsgSlashEmote .speaker .speakerAvatar {
     border-radius: 50% !important;
