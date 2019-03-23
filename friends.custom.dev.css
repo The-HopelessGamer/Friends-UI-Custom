@@ -1129,3 +1129,25 @@ button.DialogButton.copyVoiceLogsButton {
 .contextmenu_contextMenuItem_CBC-y:hover, .contextmenu_contextMenuItem_CBC-y.contextmenu_active_3vYUp {
   background: #333333!important;
 }
+
+.unreadMessageViolator {
+    border: 0px !important;
+    line-height: 20px !important;
+    color: #295 !important;
+    background: #151515 !important;
+    border-radius: 40px !important;
+    height: 20px !important;
+    border: 0px !important;
+    margin-top: 5px !important;
+    margin-bottom: 4px !important;
+    width: 150px !important;
+    box-shadow: none !important;
+}
+
+.unreadFriend .FriendMessageCount {
+    box-shadow: none !important;
+    border-radius: 40px !important;
+    color: #295 !important;
+    background: #151515 !important;
+    animation-name: none !important;
+}

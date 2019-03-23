@@ -1347,3 +1347,47 @@ button.DialogButton.copyVoiceLogsButton {
     /* box-shadow: 0 4px 12px #00000088; */
     cursor: pointer;
 }
+
+.unreadMessageViolator {
+    border: 0px !important;
+    line-height: 20px !important;
+    color: #295 !important;
+    background: #151515 !important;
+    border-radius: 40px !important;
+    height: 20px !important;
+    border: 0px !important;
+    margin-top: 5px !important;
+    margin-bottom: 4px !important;
+    width: 150px !important;
+    box-shadow: none !important;
+}
+
+.unreadFriend .FriendMessageCount {
+    box-shadow: none !important;
+    border-radius: 40px !important;
+    color: #295 !important;
+    background: #151515 !important;
+    animation-name: none !important;
+}
+
+
+
+.ChatRoomSpeaker .speaker .speakerAvatar, .ChatMsgSlashEmote .speaker .speakerAvatar {
+    border-radius: 50% !important;
+}
+
+.ChatRoomSpeaker .speaker .speakerStatus, .ChatMsgSlashEmote .speaker .speakerStatus {
+    width: 10px !important;
+    border-radius: 50% !important;
+    height: 10px !important;
+    margin-top: 12px !important;
+    margin-left: -8px !important;
+    margin-right: 8px !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #1e1e1f !important;
+}
+
+.currentUserAvatar {
+    border-radius: 50px !important;
+}
