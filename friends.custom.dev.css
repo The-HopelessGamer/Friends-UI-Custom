@@ -438,7 +438,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 .friendListFooter {
 	position: relative;
-	min-height: 20px !important;
+	min-height: 0px !important;
 	background-color: #151515 !important;
 	flex-shrink: 0;
 }
@@ -1169,9 +1169,4 @@ button.DialogButton.copyVoiceLogsButton {
 	color: #29 !important;
 	background: #151515 !important;
 	animation-name: none !important;
-}
-
-.changeLog .SVGIcon_Scroll {
-	margin-top: 19px;
-	margin-left: -1px;
 }
