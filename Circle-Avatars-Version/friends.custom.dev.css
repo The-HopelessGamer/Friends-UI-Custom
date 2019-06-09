@@ -1,3 +1,79 @@
+/* ======== Friend Panel Group ======== */
+.friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle{
+	position: absolute !important;
+	left: 12px !important;
+}
+/* Groups chat selected category on servers */
+.chatWindow .chatHeader, 
+.chatRoomTextChannel.ActiveTextChannel {
+    background: rgb(var(--header_dark)) !important;
+}
+/* groups chat search button on servers */
+.friendSearchInput[type="text"]:focus, 
+.friendSearchInput[type="text"] {
+	background-color: rgb(var(--header_dark)) !important;
+}
+/* Random stuff from groups area on friends list */
+.ChatRoomListGroupItem:hover {
+    background-color: #101010 !important;
+}
+.chatRoomVoiceChannel.ActiveVoiceChannel {
+    background-color: #191b1b !important;
+}
+.ChatRoomListGroupItem .openGroupButton:hover {
+    background-color: #2f2e2e !important;
+}
+/* Voice control */
+.activeVoiceControls {
+	background:transparent!important;
+}
+
+
+
+/* Change cursor at groups */
+.voiceRoomDragBar {
+	cursor: initial !important;
+}
+
+/* Group List Height remake  */
+.chatRoomListContainer[style="height: 0px; max-height: 0px; min-height: 0px;"] {
+	display: none !important;
+}
+.chatRoomListContainer[style*="height: 150px; max-height: 222px; min-height: 0px;"] {
+	height: 100em !important; 
+	max-height: 100em !important;  
+	min-height: 100em !important;
+}
+.chatRoomListContainer {
+	z-index: 20 !important;
+	height: 100em !important;
+	max-height: 100% !important;
+	width: 100%!important;
+}
+
+
+/* Friends remove height and remake height */
+.friendlistListContainer {
+	min-height: 0px!important;
+}
+.chatRoomListContainer[style*="height: 150px; max-height: 222px; min-height: 0px;"] {
+	height: 100em !important;
+	max-height: 100em !important;
+}
+/* Group Button Clickable Area */
+.ToggleGroupChatList {
+	position: absolute !important;
+	z-index: 11 !important;
+	right: 60px !important;
+	width: 100% !important;
+	height: 20px !important;
+	opacity: 0 !important;
+}
+
+.ToggleGroupChatList svg{
+	display: none !important;
+}
+
 ::-webkit-scrollbar-track {
 	background-color: transparent;
 }
@@ -557,21 +633,6 @@ html.client_chat_frame body, html.web_chat_frame body {
 	height: 900px !important;
 	max-height: 900px !important;
 	width: 100% !important;
-}
-
-/* little arrow for groups making selectable area bigger */
-.ToggleGroupChatList {
-	display: inline-block !important;
-	position: relative !important;
-	z-index: 11 !important;
-	right: 3px;
-	padding-right: 27em !important;
-	margin-right: -27em !important;
-}
-
-/* hidding little arrow */
-.ToggleGroupChatList .SVGIcon_DoubleArrow polyline {
-	visibility: hidden !important;
 }
 
 /* makes groups be able to uncollapse to height 0 */
@@ -1364,28 +1425,6 @@ button.DialogButton.copyVoiceLogsButton {
 	/* border: 0.5px solid rgba(250, 250, 250, 0.1); */
 	/* box-shadow: 0 4px 12px #00000088; */
 	cursor: pointer;
-}
-
-.unreadMessageViolator {
-	border: 0px !important;
-	line-height: 20px !important;
-	color: #29 !important;
-	background: #151515 !important;
-	border-radius: 40px !important;
-	height: 20px !important;
-	border: 0px !important;
-	margin-top: 5px !important;
-	margin-bottom: 4px !important;
-	width: 150px !important;
-	box-shadow: none !important;
-}
-
-.unreadFriend .FriendMessageCount {
-	box-shadow: none !important;
-	border-radius: 40px !important;
-	color: #29 !important;
-	background: #151515 !important;
-	animation-name: none !important;
 }
 
 .ChatRoomSpeaker .speaker .speakerAvatar, .ChatMsgSlashEmote .speaker .speakerAvatar {
