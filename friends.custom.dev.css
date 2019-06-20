@@ -471,6 +471,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 	background-color: #151515 !important;
 	border-bottom: 1px !important;
 	border-bottom-color: #000 !important;
+	padding-top: 15px;
 }
 
 .statusHeaderGlow {
