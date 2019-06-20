@@ -469,6 +469,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 	background-color: #151515 !important;
 	border-bottom: 1px !important;
 	border-bottom-color: #000 !important;
+	padding-top: 15px;
 }
 
 .statusHeaderGlow {
@@ -1368,6 +1369,189 @@ button.DialogButton.copyVoiceLogsButton {
 	/* box-shadow: 0 4px 12px #00000088; */
 	cursor: pointer;
 }
+/* Avatar Status */
+
+/* QuickAccess avatar status  */
+.friend.quickAccessFriend .avatarHolder .avatarStatus {
+    border-radius: 40px !important;
+    margin-top: -13px !important;
+    margin-left: 35px !important;
+    height: 12px !important;
+    width: 12px !important;
+    z-index: 1 !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: rgb(var(--friendlist)) !important;
+}
+
+/* Compact friend spacing */
+.CompactFriendsList .friend, .CompactFriendsList .friendGroup .friend {
+    height: 30px !important;
+
+}
+
+/* Compact game name spacing */
+.CompactFriendsList .friendlistListContainer .friend.ingame .labelHolder {
+    margin-top: -4px !important;
+}
+
+/* Compact QuickAccess avatar status  */
+.compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus {
+    border-radius: 40px !important;
+    margin-top: -13px !important;
+    margin-left: 15px !important;
+    height: 12px !important;
+    width: 12px !important;
+    z-index: 1 !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #151515 !important;
+}
+
+/* Online */
+.friend.online .avatarHolder .avatarStatus {
+    background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%) !important;
+    border-radius: 40px !important;
+    top: 23px !important;
+    bottom: 0px !important;
+    left: 21px !important;
+    right: 0px !important;
+    height: 12px !important;
+    width: 12px !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #151515 !important;
+}
+
+/* ingame */
+.friend.ingame .avatarHolder .avatarStatus {
+    border-radius: 40px !important;
+    top: 23px !important;
+    bottom: 0px !important;
+    left: 21px !important;
+    right: 0px !important;
+    height: 12px !important;
+    width: 12px !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #151515 !important;
+}
+
+/* Golden */
+.friend.golden .avatarHolder .avatarStatus {
+    border-radius: 40px !important;
+    top: 23px !important;
+    bottom: 0px !important;
+    left: 21px !important;
+    right: 0px !important;
+    height: 12px !important;
+    width: 12px !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #151515 !important;
+}
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG img {
+    border-radius: 50px !important;}
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG{
+    border-radius: 50px !important;}
+
+/* Streaming */
+.friend.watchingbroadcast .avatarHolder .avatarStatus {
+    border-radius: 40px !important;
+    top: 23px !important;
+    bottom: 0px !important;
+    left: 21px !important;
+    right: 0px !important;
+    height: 12px !important;
+    width: 12px !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #151515 !important;
+}
+
+/* Away */
+.friend.awayOrSnooze .avatarHolder .avatarStatus {
+    -webkit-mask: none !important;;
+    -webkit-mask-size: 0px !important;;
+    mask: none !important;;
+    mask-size: 0px !important;;
+    border-radius: 40px !important;
+    top: 23px !important;
+    bottom: 0px !important;
+    left: 21px !important;
+    right: 0px !important;
+    height: 12px !important;
+    width: 12px !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #151515 !important;
+}
+
+/* Offline */
+.friend.offline .avatarHolder .avatarStatus {
+    background: #7a7a7a !important;
+    border-radius: 40px !important;
+    top: 23px !important;
+    bottom: 0px !important;
+    left: 21px !important;
+    right: 0px !important;
+    height: 12px !important;
+    width: 12px !important;
+    z-index: 1 !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #151515 !important;
+}
+
+/* Compact avatar status. */
+.CompactFriendsList .friend .avatarHolder .avatarStatus {
+    border-radius: 40px !important;
+    top: 14px !important;
+    bottom: 0px !important;
+    left: 14px !important;
+    right: 0px !important;
+    height: 10px !important;
+    width: 10px !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #151515 !important;
+}
+
+.miniprofile_avatarStatus {
+    display: none !important;
+}
+
+
+/* compact game icon */
+
+.CompactFriendsList .friendlistListContainer .friendGroup.gameGroup .friend {
+    padding: 4px 0px 4px 15px !important;
+}
+
+.CompactFriendsList .FriendInGameIcon {
+    display: none !important;
+}
+
+.FriendInGameIcon {
+    display: none !important;
+}
+
+.ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomMultiFriendAvatar, .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomGroupAvatar {
+    margin-top: 0px !important;
+}
+
+.ChatTabs.compactView .chatTabGroupName {
+    margin-top: 5px !important;
+}
+
+.chatTabGroupName {
+    margin-top: 3px !important;
+}
+
+
+/* END */
 
 .ChatRoomSpeaker .speaker .speakerAvatar, .ChatMsgSlashEmote .speaker .speakerAvatar {
 	border-radius: 50% !important;
