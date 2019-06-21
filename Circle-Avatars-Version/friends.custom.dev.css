@@ -466,10 +466,8 @@ html.client_chat_frame body, html.web_chat_frame body {
 }
 
 .friendListHeaderContainer {
-	background-color: #151515 !important;
-	border-bottom: 1px !important;
-	border-bottom-color: #000 !important;
-	padding-top: 15px;
+    background-color: #151515 !important;
+    border-bottom: 0px !important;
 }
 
 .statusHeaderGlow {
@@ -1110,16 +1108,14 @@ button.DialogButton.copyVoiceLogsButton {
 	background: none !important;
 }
 
+.compactView .ExpandPlusMinus {
+	opacity: 0;
+}
+
 /* Friend hover background */
 .FriendPicker_SuggestedFriend {
 	cursor: pointer;
 	border-radius: 4px !important;
-}
-
-.friendListHeaderContainer .title-area {
-	border-bottom-color: #262626 !important;
-	border-bottom: 1px;
-	border-bottom-style: solid !important;
 }
 
 .emptyChatDialogs {
