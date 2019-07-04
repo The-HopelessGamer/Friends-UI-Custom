@@ -3,6 +3,10 @@
 	left: 12px !important;
 }
 
+.insetshadow_FriendsListInsetShadowCtn_1S167 {
+	display: none!important;
+}
+
 .ToggleGroupChatList {
 	position: absolute !important;
 	z-index: 11 !important;
@@ -16,7 +20,34 @@
 	display: none !important;
 }
 
+.chatentry_chatSubmitButton_3VRfL {
+	background-color: #151515 !important;
+	transition-duration: .3s;
+}
 
+.chatentry_chatSubmitButton_3VRfL:hover {
+	background-color: #262626 !important;
+}
+
+.chatentry_chatSubmitButton_3VRfL.chatentry_disabled_2p2vW {
+	background-color: #262626 !important;
+	transition-duration: .3s;
+}
+
+.chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0, .chatentry_chatSubmitButton_3VRfL.chatentry_EmbedButton_1vvRh {
+	background-color: #262626 !important;
+	transition-duration: .3s;
+}
+
+.chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0:hover, .chatentry_chatSubmitButton_3VRfL.chatentry_EmbedButton_1vvRh:hover {
+	background-color: #151515 !important;
+}
+
+.VoiceToggle.Inactive:hover,
+.chatSubmitButton.EmbedButton:hover,
+.chatSubmitButton.EmoticonPickerButton:hover {
+	background-color: #151515 !important;
+}
 
 ::-webkit-scrollbar-track {
 	background-color: transparent;
