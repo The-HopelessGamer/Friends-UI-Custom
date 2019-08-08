@@ -371,3 +371,7 @@ button.DialogButton.copyVoiceLogsButton {
 .miniprofile_miniProfileBackground_3gfFJ {
     background: radial-gradient(ellipse farthest-corner at 20% 30%, #34373f 50%, #282c32 100%) !important;
 }
+
+.singlewindow .titleBarContainer.ChatTabs {
+	height: 40px!important;
+}
