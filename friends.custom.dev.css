@@ -17,6 +17,23 @@ html.web_chat_frame body,
     background: #151515 !important;
 }
 
+.ChatRoomList:hover::-webkit-scrollbar-thumb,
+.friendlistListContainer:hover::-webkit-scrollbar-thumb {
+    background-color: #262626;
+    background-clip: padding-box;
+}
+
+.friendlistListContainer:hover::-webkit-scrollbar-thumb:hover,
+.ChatRoomList ::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:hover {
+    background-color: #4d4d4d;
+    background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #262626;
+}
+
 .singleWindowFocusBar {
     display: none !important;
 }
@@ -374,5 +391,5 @@ button.DialogButton.copyVoiceLogsButton {
 }
 
 .singlewindow .titleBarContainer.ChatTabs {
-	height: 40px!important;
+    height: 40px !important;
 }
