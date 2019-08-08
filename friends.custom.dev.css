@@ -92,7 +92,8 @@ html.web_chat_frame body {
 .activeTab,
 .chatWindow .chatEntry,
 .singleWindowDivider,
-.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileHeader_3oBIW {
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileHeader_3oBIW,
+.chatRoomTextChannel {
    background-color: #1a1a1a !important;
    background: #1a1a1a !important;
 }
