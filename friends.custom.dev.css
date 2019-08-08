@@ -393,3 +393,7 @@ button.DialogButton.copyVoiceLogsButton {
 .singlewindow .titleBarContainer.ChatTabs {
     height: 40px !important;
 }
+
+.FriendChatTypingNotification {
+	background: none!important;
+}
