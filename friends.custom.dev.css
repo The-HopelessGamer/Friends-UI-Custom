@@ -11,7 +11,8 @@
 .chatSubmitButton.EmoticonPickerButton:hover,
 .chatRoomListContainer,
 html.client_chat_frame body,
-html.web_chat_frame body {
+html.web_chat_frame body,
+.ChatTabs .title-area {
     background-color: #151515 !important;
     background: #151515 !important;
 }
