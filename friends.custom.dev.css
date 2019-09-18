@@ -19,7 +19,7 @@ html.web_chat_frame body,
 
 .ChatRoomList:hover::-webkit-scrollbar-thumb,
 .friendlistListContainer:hover::-webkit-scrollbar-thumb {
-    background-color: #262626;
+    background-color: #404040;
     background-clip: padding-box;
 }
 
@@ -28,10 +28,6 @@ html.web_chat_frame body,
 ::-webkit-scrollbar-thumb:hover {
     background-color: #4d4d4d;
     background-clip: padding-box;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #262626;
 }
 
 .singleWindowFocusBar {
