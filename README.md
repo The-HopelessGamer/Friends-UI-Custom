@@ -1,4 +1,4 @@
-# Custom Metro UI for new Steam chat and friends UI
+# Custom UI for new Steam chat and friends UI
 
 * I wanted to style the new Steam UI and Friends UI to look like Metro For Steam. 
 
