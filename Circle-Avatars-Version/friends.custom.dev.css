@@ -1602,3 +1602,6 @@ button.DialogButton.copyVoiceLogsButton {
 	margin-top: -10px!important;
 }
 
+.avatar {
+	border-radius: 50px!important;	
+}
