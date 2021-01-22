@@ -107,7 +107,6 @@ html.web_chat_frame body,
 .activeTab,
 .chatWindow .chatEntry,
 .singleWindowDivider,
-.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileHeader_3oBIW,
 .chatRoomTextChannel,
 .chatTab .chatTabHighlight,
 .title-area-highlight {
@@ -382,9 +381,9 @@ button.DialogButton.copyVoiceLogsButton {
     background: #555 !important;
 }
 
-.miniprofile_miniProfileBackground_3gfFJ {
+<!--.miniprofile_miniProfileBackground_3gfFJ {
     background: radial-gradient(ellipse farthest-corner at 20% 30%, #34373f 50%, #282c32 100%) !important;
-}
+}-->
 
 .singlewindow .titleBarContainer.ChatTabs {
     height: 40px !important;
